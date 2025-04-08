@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elm Exclusive Access Card Test</title>
+    <link rel="stylesheet" href="/styles/exclusive-access-card.css" />
+  </head>
+  <body>
+    <div id="exclusive-access-card"></div>
+    <script type="module" src="/elm/ExclusiveAccessCard.elm.js"></script>
+    <script type="module">
+      // Initialize the Elm component
+      Elm.ExclusiveAccessCard.init({
+        node: document.getElementById("exclusive-access-card"),
+      });
+    </script>
+  </body>
+</html>
